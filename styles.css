@@ -1,0 +1,58 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a57f57; /* Beige background */
+    color: #cba66d; /* White text */
+  }
+  
+  .navbar {
+    background-color: #442b11; /* Stylish brown */
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+  }
+  
+  .nav-links a:hover {
+    background-color: white;
+    color: #b5651d;
+    transition: 0.3s;
+  }
+  
+  .hero, .products, .contact {
+    text-align: center;
+    margin: 2rem auto;
+  }
+  
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  .product {
+    background-color: #ffffff;
+    color: #b5651d;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
